@@ -31,7 +31,7 @@ function Extrusion({ start = [0,0], paths, ...props }) {
   return (
     <mesh>
       <extrudeGeometry attach="geometry" args={[shape, props]} />
-      <meshBasicMaterial color="#0f0"/>
+      <meshBasicMaterial color="#444444"/>
     </mesh>
   )
 }
