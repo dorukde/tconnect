@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "drei": "^0.0.54",
+    "nice-color-palettes": "^3.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-three-fiber": "^4.2.8",
+    "react-three-gui": "^0.1.5",
+    "react-use-gesture": "^7.0.15",
+    "three": "^0.117.1",
+    "use-cannon": "^0.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
