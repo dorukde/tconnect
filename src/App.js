@@ -69,6 +69,7 @@ function App() {
       <spotLight intensity={0.2} position={[30, 40, 50]} angle={0.5} penumbra={1} castShadow />
     <Physics gravity={[0, 0, -30]}>
     <Plane color={niceColors[17][1]} />
+   
  {shapes.map((shape)=>
       <Extrusion start={shape.start} paths={shape.paths} steps={6} bevelEnabled depth={1} bevelSize={0.5}bevelThickness={1} bevelOffset={-0.5} amount={2} color={shape.color} />
           
