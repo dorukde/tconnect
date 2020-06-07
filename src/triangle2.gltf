@@ -1,0 +1,220 @@
+{
+    "asset": {
+        "copyright": "2019 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 0897bb3786688dd8ac0e16e7ca439aa83b5dca11",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 92,
+            "type": "VEC3",
+            "max": [
+                -0.3535533845424652,
+                49.64644241333008,
+                10.0
+            ],
+            "min": [
+                -50.0,
+                -49.64644241333008,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 92,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 92,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 96,
+            "type": "SCALAR",
+            "max": [
+                91.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1104,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1104,
+            "byteLength": 1104,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2208,
+            "byteLength": 736,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2944,
+            "byteLength": 384,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3328,
+            "uri": "triangle2_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.001306288642808795,
+                "yfov": 0.6024156808853149,
+                "zfar": 71.84587860107422,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "image",
+            "uri": "triangle2_images/image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "gelatin_normal",
+            "uri": "triangle2_images/gelatin_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "alphaMode": "BLEND",
+            "name": "Gelatin",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "unnamed",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                230.29669189453126,
+                87.48688507080078,
+                230.86788940429688
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0000001192092896,
+                1.0,
+                1.0
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                25.17677879333496,
+                0.0,
+                -5.0
+            ],
+            "scale": [
+                1.0,
+                0.41539400815963747,
+                1.0
+            ],
+            "mesh": 0,
+            "name": "unnamed"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "gelatin_material::normal::image",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0,
+    "extensions": {
+        "KHR_xmp": {
+            "packets": [
+                {
+                    "dc:date": "2020-06-07T17:50:50.664+10:00",
+                    "dc:format": "model/gltf+json",
+                    "dc:title": "triangle2.dn",
+                    "xmp:CreatorTool": "Adobe Dimension"
+                }
+            ]
+        }
+    },
+    "extensionsUsed": [
+        "KHR_xmp"
+    ]
+}
